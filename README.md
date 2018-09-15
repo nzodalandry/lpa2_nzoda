@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+NZODA OUMBE Landry
+>>>>>>> 98707b2e3267e6cb9bea6fa6e9dc67f2c520a440
