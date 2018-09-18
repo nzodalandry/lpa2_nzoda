@@ -1,3 +1,9 @@
 language: ruby
 rvm:
 - 2.4.4
+deploy:
+  provider: heroku
+  api_key: a94e092c-33e6-4050-a4b0-a74ab5aeaba4
+  app: lpa2_nzoda
+  on:
+    repo: nzodalandry/lpa2_nzoda
