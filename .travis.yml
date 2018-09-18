@@ -3,8 +3,7 @@ rvm:
 - 2.4.4
 deploy:
   provider: heroku
-  api_key:
-    secure: fnH7KxVhd1r9vc1Tw8h6bMYGyfIjv/w7r/P68UwbH8tuleDl2PNanUc3lSq00aA+O40O6CUZgXvVq5ktt4BQwd9z/qtPAqQ+dAD/j1ifIexf0mgPsRfJy+ofkhG6reeUVbFEj6cJNCDKjHp40TjMgCYOmkZVnoA7ln6fY97itWMrSJ/aLpCxJajIK4YWndSJH0WubiFNY/7IfAXvF/kUI7oaYgzhV2HsvIcxUzHA9vN34DwiXhkseEfqb2e2U7nGWhsbuI4+NjWC+vcT2bfHTSdaZpNRceIGTgN56OZt3wMsJfHk+QcqbrDoK+ZlpWJyf/BiepLBE1T0p1nDBeYPvLY+B4zzSmmGIm1l2kojmETcszVI/MiEE3mWXdr7FqBtgknRA/3XhqIR/5S2ICEZ9itiRKyIvamC6yBTNhmSernrsXotRVGhRXjJJh0jDaLOgCBzL7d9QIw4DwIF0zaUFfXLoXsDBZ0kXa5HAr7xHNNXscnYHh+L5pdXDHUp3WeHk8+Xh8VCzlBopsgpK14Le+7iNE0Y2B3aVpTzgW5tOaPwjHlMOZsFgKvrWtAt/TuHXPif/FEkJ2/H0IDaGqOEMeR2KPMZ5vLW+SH4FXiM1d6cP1uoelKm9hzYWOQpEBYptXNSNMuIYxF5jQMn9j3uYbWXBwUMmn2cocf4YEXc9OE=
+  api_key: 78406c18-1a37-469b-8033-05985ad9cf73
   app: gespizzav2
   on:
     repo: nzodalandry/lpa2_nzoda
