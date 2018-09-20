@@ -8,3 +8,6 @@ deploy:
   app: geszpizzav2
   on:
     repo: nzodalandry/lpa2_nzoda
+  run:
+    - "rake db:migrate"
+    - "rake cleanup"
