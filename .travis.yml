@@ -3,7 +3,8 @@ rvm:
 - 2.4.4
 deploy:
   provider: heroku
-  api_key: a94e092c-33e6-4050-a4b0-a74ab5aeaba4
-  app: 
-  on: geszpizzav2
+  api_key:
+    secure: wBgdgE6utlPLbgEZ7qakyP/3xqc6V9pV/fmZoHk/XhoO4Qjd21oruaChkDMT8NuqYHaJb2414xPf1kOQI9ZTGnFJg5Xnd6ZXnqlkconzwzRmijgRYgqgyQ9IVaXEvAAvLP/n0juYulgaT8ZD6HhhWPUu+/ZSGgsLvorl22tNeLykyxXGPErTH3pCJzzyAuAlrRTqcxKv3V5hYPuNLi9UJCQ+RK055Zp8w1+oQyc3lrLhvW83FXspyhFsCfM9Z0fWMF3XjiE1i9K8CpOho6Q3jPO5kIH9kbXreM7m2wvwpUEHT2a+KDhtuHrd+YVf0qcszgZdpbJhbR8T94atc4sRYXLNF7XsWLv8DSKoCNPaB+Vm7xTIM5hNBjBglTqcMJG+OX7L+N3zhQLXQIE1hmCnHFD1T9NIxTjOFTxf1zGaVyFzpy3yn7RjroL9Y1hnrdx8Oxoh+IYCX7xx+XeIINCTXQ/nxq2M6vmKs2qH2spU3KHopbiIfJzwn+fZ+sAz0pkJ4tvNpR31jeigpKP8lv4qZ0KTflPELgV+e40tYSlErFR0eCIQGWpitmMUeJ32khXUj1W/S14oP6EVYs7dkhsVzY/seJ6iGIGFb+CqA11V3s6WHx6yoVZL67OFhBCLj9iH3ZAoW4574JPBv3qBkwobbl96i+8LTCxTFAqDM9iA2nI=
+  app: geszpizzav2
+  on:
     repo: nzodalandry/lpa2_nzoda
