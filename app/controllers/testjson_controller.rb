@@ -1,6 +1,6 @@
 class TestjsonController < ApplicationController
   def index
-    put params.inspect
+    puts params.inspect
     render json: params
   end
 end
