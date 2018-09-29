@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  post 'orders/create', to: 'orders#create'
   resources :pizzas
   resources :testjson 
   resources :orders
