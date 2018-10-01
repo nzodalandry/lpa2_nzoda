@@ -1,21 +1,26 @@
-<br><br><br>
+<h1>
+  <center>LISTE DES COMMANDES</center>
+</h1>
+<br/></br>
 <% @orders.each do |order| %>
-<br>
 <table align=center border=1 >
   <tr align-text=center > 
-	<td>Nom:
-	<td>Adresse
-	<td> Pizzas
+    <th>NOM DU CLIENT</th>
+    <th>ADRESSE DU CLIENT</th>
+    <th> PIZZAS COMMANDEES</th>
   </tr>
   <tr>
-	<td> <%= order[:order][:client_name]  %>
-	<td> <%= order[:order][:adress] %>
-	<td> <table border=1 >
-		<% order[:pizzas].each do |pizza| %>
-                     <tr><td> <%= pizza[:name] %> <td> <img src="<%= pizza[:url] %>" width="60px" height="60px" />
+    <td> <%= order[:order][:client_name]  %></td>
+    <td> <%= order[:order][:adress] %></td>
+	  <td> 
+      <table border=1 >
+		    <% order[:pizzas].each do |pizza| %>
+        <tr><td> <%= pizza[:name] %> <td> <img src="<%= pizza[:url] %>" width="50px" height="50px" /></td></tr>
                 <% end %>
 	     </table>
+    </td>
   </tr>
 </table>
 <% end %>
 <br>
+  <%= link_to 'Back', pizzas_path %>
