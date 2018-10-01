@@ -4,23 +4,29 @@
   </h1>
 </center>
 </br></br>
-<table align=center border=1 width=500>
+<table align=center border=1 width=650>
   <tr align-text=center > 
-    <th width=150>NOM DU CLIENT</th>
-    <th width=150>ADRESSE DU CLIENT</th>
-    <th width=150> PIZZAS COMMANDEES</th>
+    <th width=400>NOM DU CLIENT</th>
+    <th width=400>ADRESSE DU CLIENT</th>
+    <th width=400> PIZZAS COMMANDEES</th>
   </tr>
 </table>
 <% @orders.each do |order| %>
-<table align=center border=1 width=500 cellspacing=0>
+<table align=center border=1 width=650 cellspacing=0>
   <tr>
-	<td width=150> <%= order[:order][:client_name]  %>
-	<td width=150> <%= order[:order][:adress] %>
-	<td width=150> <table border=0 >
+    <td width=400> <%= order[:order][:client_name]  %></td>
+    <td width=400> <%= order[:order][:adress] %></td>
+	<td > 
+    <table border=0 width=222>
 		<% order[:pizzas].each do |pizza| %>
-                     <tr><td> <%= pizza[:name] %> <td> <img src="<%= pizza[:url] %>" width="60px" height="60px" />
+                     <tr>
+                       <td> <%= pizza[:name] %></td> 
+                       <td> <img src="<%= pizza[:url] %>" width="60px" height="60px" /></td>
+                       <td><%= pizza[:price] %> €</td>
+                     </tr>
                 <% end %>
 	     </table>
+   </td>
   </tr>
 </table>
 <% end %>
