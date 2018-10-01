@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<h1>
-  <center>LISTE DES COMMANDES</center>
-</h1>
-<br/></br>
-<% @orders.each do |order| %>
-<table align=center border=1 >
-  <tr align-text=center > 
-    <th>NOM DU CLIENT</th>
-    <th>ADRESSE DU CLIENT</th>
-    <th> PIZZAS COMMANDEES</th>
-=======
 <center>
   <h1>
     LISTE DES COMMANDES
@@ -21,29 +9,18 @@
     <th width=150>NOM DU CLIENT</th>
     <th width=150>ADRESSE DU CLIENT</th>
     <th width=150> PIZZAS COMMANDEES</th>
->>>>>>> ea7c43ba3a07d8a89ebec0239a8158e378daf668
   </tr>
 </table>
 <% @orders.each do |order| %>
 <table align=center border=1 width=500 cellspacing=0>
   <tr>
-<<<<<<< HEAD
-    <td> <%= order[:order][:client_name]  %></td>
-    <td> <%= order[:order][:adress] %></td>
-	  <td> 
-      <table border=1 >
-		    <% order[:pizzas].each do |pizza| %>
-        <tr><td> <%= pizza[:name] %> <td> <img src="<%= pizza[:url] %>" width="50px" height="50px" /></td></tr>
-=======
 	<td width=150> <%= order[:order][:client_name]  %>
 	<td width=150> <%= order[:order][:adress] %>
 	<td width=150> <table border=0 >
 		<% order[:pizzas].each do |pizza| %>
                      <tr><td> <%= pizza[:name] %> <td> <img src="<%= pizza[:url] %>" width="60px" height="60px" />
->>>>>>> ea7c43ba3a07d8a89ebec0239a8158e378daf668
                 <% end %>
 	     </table>
-    </td>
   </tr>
 </table>
 <% end %>
